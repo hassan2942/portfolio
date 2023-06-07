@@ -1,5 +1,5 @@
 import React from "react";
-// import { AiFillFacebook , AiOutlineInstagram , AiFillTwitterCircle ,AiFillLinkedin} from "react-icons/Ai";
+import { AiFillFacebook , AiOutlineInstagram , AiFillTwitterCircle ,AiFillLinkedin} from "react-icons/Ai";
 import Link from "next/link";
 
 export default function Footer() {

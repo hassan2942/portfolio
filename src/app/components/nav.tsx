@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-// import { FaDownload } from "react-icons/Fa";
+import { FaDownload } from "react-icons/Fa";
 
 export default function Nav() {
   return (
