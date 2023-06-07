@@ -6,13 +6,13 @@ import { FaDownload } from "react-icons/Fa";
 export default function Nav() {
   return (
     <div>
-      <header className="text-gray-600 body-font">
-        <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <header className="text-gray-600 body-font ">
+        <div className="container mx-auto flex flex-wrap p-1 flex-col md:flex-row items-center">
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             <Image
               src={require("../../../public/assets/pictures/profile.png")}
               alt="Hassan`s picture"
-              width={100}
+              width={70}
               height={100}
               className="w-15 rounded-s-full"
             />
