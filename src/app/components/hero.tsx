@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import Typewriter from "typewriter-effect";
 
-export default function () {
+export default function Hero () {
   return (
     <section className="text-gray-600 body-font bg-gray-200">
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
