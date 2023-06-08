@@ -2,8 +2,9 @@
 import React from "react";
 import Image from "next/image";
 import Typewriter from "typewriter-effect";
+import Link from "next/link";
 
-export default function Hero () {
+export default function Hero() {
   return (
     <section className="text-gray-600 body-font bg-gray-200">
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
@@ -21,19 +22,18 @@ export default function Hero () {
           </h1>
           <div className="w-[100px] h-[3px] bg-blue-600 animate-bounce -mt-1"></div>
           <p className="mb-8 leading-relaxed">
-             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Voluptatibus, doloremque architecto? Expedita voluptas illo
             provident officia, dolorum beatae molestiae iusto veniam aut
             doloribus voluptatibus fuga ratione dolores repudiandae repellat
             placeat.
           </p>
           <div className="flex justify-center">
-            <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
-              Button
-            </button>
-            <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
-              Button
-            </button>
+            <Link href={"#contact"}>
+              <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-white rounded text-lg hover:text-blue-600">
+                CONTACT ME
+              </button>
+            </Link>
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
