@@ -4,8 +4,9 @@ import Image from "next/image";
 import { FaDownload } from "react-icons/fa";
 
 export default function Nav() {
+  
   return (
-    <div>
+    <div className="bg-white z-50 sticky top-0">
       <header className="text-gray-600 body-font ">
         <div className="container mx-auto flex flex-wrap p-1 flex-col md:flex-row items-center">
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
@@ -30,6 +31,9 @@ export default function Nav() {
             </Link>
             <Link href={"#"} className="mr-5 hover:text-blue-600">
               PROJECTS
+            </Link>
+            <Link href={"#contact"} className="mr-5 hover:text-blue-600 ">
+              CONTACT
             </Link>
           </nav>
           <a href="/assets/resume/Muhammad Hassan Resume.pdf">
