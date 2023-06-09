@@ -67,7 +67,7 @@ export default function Projects() {
                     TO-DO LIST
                   </h1>
                   <p className="leading-relaxed">
-                    I developed a minimalist to-do list app using Next.js,
+                    I developed a minimalist to-do list app using Next.js
                     allowing users to efficiently manage their tasks
                     and stay organized.
                   </p>
@@ -97,8 +97,7 @@ export default function Projects() {
                   </h1>
                   <p className="leading-relaxed">
                     This is a project for organizations who select their highly
-                    qualified candidate on the basis of election and they value
-                    security and anonymity.
+                    qualified candidate on the basis of election.
                   </p>
                   <Link
                     href={"http://evotingblockchain3.surge.sh/"}
