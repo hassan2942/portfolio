@@ -22,11 +22,11 @@ export default function Hero() {
           </h1>
           <div className="w-[100px] h-[3px] bg-blue-600 animate-bounce -mt-1"></div>
           <p className="mb-8 leading-relaxed">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus, doloremque architecto? Expedita voluptas illo
-            provident officia, dolorum beatae molestiae iusto veniam aut
-            doloribus voluptatibus fuga ratione dolores repudiandae repellat
-            placeat.
+            Hi, my name is Muhammad Hassan Ejaz. I am a student at Usman
+            Institute of Technology, currently pursuing a Bachelor's degree in
+            Computer Science. My area of expertise within computer science is
+            web development, particularly with React.js and Next.js, along with
+            Tailwind CSS.
           </p>
           <div className="flex justify-center">
             <Link href={"#contact"}>
