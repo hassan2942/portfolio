@@ -12,7 +12,7 @@ export default function Projects() {
               PROJECTS
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              In my project section, you'll find a diverse range of innovative
+              In my project section, you will find a diverse range of innovative
               and impactful projects that showcase my skills and passion for
               problem-solving. From web development to UX/UI
               design, each project reflects my dedication to delivering
