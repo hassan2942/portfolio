@@ -14,8 +14,8 @@ export default function Projects() {
           heard of them man bun deep jianbing selfies heirloom.
         </p>
       </div>
-      <div className="flex flex-wrap -m-4">
-        {/* <div className="lg:w-1/3 sm:w-1/2 p-4">
+      {/* <div className="flex flex-wrap -m-4">
+        <div className="lg:w-1/3 sm:w-1/2 p-4">
           <div className="flex relative">
             <img
               alt="gallery"
@@ -140,8 +140,8 @@ export default function Projects() {
               </p>
             </div>
           </div>
-        </div> */}
-      </div>
+        </div>
+      </div> */}
     </div>
   </section>
   </div>
