@@ -23,9 +23,9 @@ export default function Nav() {
             <Link href={"/"} className="mr-5 hover:text-blue-600 ">
               HOME
             </Link>
-            <Link href={"#"} className="mr-5 hover:text-blue-600">
+            {/* <Link href={"#"} className="mr-5 hover:text-blue-600">
               ABOUT
-            </Link>
+            </Link> */}
             <Link href={"#Skills"} className="mr-5 hover:text-blue-600">
               SKILLS
             </Link>
