@@ -23,7 +23,7 @@ export default function Hero() {
           <div className="w-[100px] h-[3px] bg-blue-600 animate-bounce -mt-1"></div>
           <p className="mb-8 leading-relaxed">
             Hi, my name is Muhammad Hassan Ejaz. I am a student at Usman
-            Institute of Technology, currently pursuing a Bachelor's degree in
+            Institute of Technology, currently pursuing a Bachelors degree in
             Computer Science. My area of expertise within computer science is
             web development, particularly with React.js and Next.js, along with
             Tailwind CSS.
